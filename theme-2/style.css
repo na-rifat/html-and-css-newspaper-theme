@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+body{
+  width: 11in;
+  margin: auto;
+}
+header{
+  width: 100%;
+    height: 400px;
+    background-color: #374849;
+    position: relative;    
+}
+main{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0;  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border-right: 1px solid  gray;
+  border-left: 1px solid gray;
+}
+nav{
+  width: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+#covidreport{
+  position: absolute;
+  right: 50px;
+  top: 10px;
+ }
+ #covidreport h3{
+   color: white;
+   text-align: center;
+ }
+ .reportbox{
+
+ }
+ .reportbox > div{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 5px;
+ }
+#navigation li{
+  list-style-type: none;
+  padding: 12.6px 10px;
+  width: 100%;
+  border: 1px solid  rgb(219, 255, 56);
+}
+#navigation a {
+  text-decoration: none;
+  padding: 15px;  
+  color: white;
+}
+#navigation a:hover{
+  color: yellow;
+}
+#newspaper-logo a {
+  text-decoration: none;
+}
+#newspaper-logo{
+  padding: 20px;  
+}
+#newspaper-logo em{
+  color: lightgray;
+}
+#newspaper-logo h1{
+  font-family: Verdana;
+  color: white;
+}
+
+#headline{
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+.readnews{
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  height: 40px;
+  width: 93%;
+  background-color: yellowgreen; 
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.newsbox .readnews{
+  position: absolute;
+  bottom: 10px;
+  width: 95%;
+}
+.headlineitem{
+  position: relative;
+  width: 250px;
+  max-height: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid white;
+  display: inline-block;
+}
+
+.headlineitem img{
+  width: 100%
+}
+.headlineitem h4{
+  font-size: .8em;
+  color: white;
+}
+footer{
+  width: 100%;
+  height: 1in ;
+  background-color: rgb(56, 78, 78);  
+  font-size: .8em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > div{
+  text-align: center;
+}
+.newsbox{
+  padding: 5px;
+  display: inline-block; 
+  margin: 5px;
+  position: relative;
+  min-height: 430px;
+}
+
+
+.newsbox img{
+  width: 100%;
+}
+.newsbox p{
+  font-size: .8em;
+  text-align: left; 
+  display: inline-block;
+}
+.newsbox h4{
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(76, 116, 94);
+  margin-bottom: 10px;
+  color: white;
+}
+.cat1{
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.cat2{
+  width: 400px;
+}
+
+
+.newsrow{
+  width: 100%;
+  padding: 30px 10px;
+  border-radius: 5px;
+  background-color: rgb(36, 89, 143);
+  margin: 10px 0;  
+}
+.newsrow a{
+  text-decoration: none;
+  color: black;
+}
+.newsrow img{
+  height: 100%;
+  width: 20%;
+}
+.newsrow p{
+  display: inline-block;
+  width: 75%;
+  font-size: .8em;
+  color: white;
+}
+
+.footeritem{
+  max-width: 200px;
+}

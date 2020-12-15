@@ -1,0 +1,215 @@
+/* the styles for the html elements */
+html {
+    background-color: rgb(192, 192, 192);
+}
+body {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: .5em 2em;
+    position: relative;
+}
+header {
+    margin: 0;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 2px solid black;
+}
+header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: black;
+}
+header h2 {
+    font-size: 220%;
+    color: #f2972e;
+    text-shadow: 2px 3px 0 black;
+    margin-left: 120px;
+    margin-bottom: .25em;
+}
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    margin-left: 120px;
+}
+header img { 
+	float: left;
+	margin-left: 20px;
+}
+main {
+    width: 300px;
+    float: left;
+}
+
+#sidebarA {
+    width:250px;
+    float:left;    
+}
+#sidebarB {
+    width: 250px;
+    float:right;     
+}
+#sidebarB ul{
+    padding: 0;
+}
+#sidebarB li{
+display: block; 
+list-style-type: none;
+border-bottom: 1px solid lightgray;
+padding: 10px 5px;
+
+}
+#sidebarB a{
+text-decoration:none;
+}
+#datetime{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+nav ul li {
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a::after{
+    content: " | ";
+}
+section {
+    float: left;
+    width: 500px;
+    padding-bottom: 1.5em;
+}
+footer {
+    clear: both;
+    margin-top: 1em;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+#logo{
+    font-size: 2em;
+    color: rgb(208, 133, 4);
+    text-shadow: 2px 3px 0 black;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    color: rgb(208, 133, 4);
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h3 {
+    font-size: 110%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: rgb(41, 64, 124);
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(208, 133, 4);
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th,td {
+    border: 1px solid black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+/* the styles for classes */
+.right {
+    text-align: right;
+}
+.last_paragraph {
+	margin-bottom: 2em;	
+}
+.breaking-news{
+    width: 90%;   
+}
+section img{
+    width: 100%;
+}
+section p{
+    display: inline-block;
+    width: 90%;
+}
+.topnews{
+    width: 90%;
+}
+.topnews img{
+    width: 100%;
+}
+.topnews h3{
+    font-size: .8em;
+}
+.readmorebutton{
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 136, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.readmorebutton a{
+    text-decoration: none;
+    color: white;
+}
+#topasidebar{
+    padding: 50px 0;
+}
+
+#topasidebar h2{
+  font-size: 2em;   
+}
